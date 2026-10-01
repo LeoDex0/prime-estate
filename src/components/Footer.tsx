@@ -80,7 +80,7 @@ export default function Footer() {
       </div>
 
       <div className="mx-auto mt-12 max-w-7xl border-t border-cream/10 px-6 pt-6 text-xs text-cream/40 sm:px-10">
-        © {new Date().getFullYear()} PrimeEstate. All rights reserved.
+        © {new Date().getFullYear()} PrimeEstate. All rights reserved.{" · "}<a href="https://leodex.dev/" className="underline-offset-2 hover:underline">Website by LeoDex</a>
       </div>
     </footer>
   );
